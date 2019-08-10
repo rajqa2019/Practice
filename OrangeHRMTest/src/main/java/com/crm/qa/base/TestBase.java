@@ -45,7 +45,7 @@ public class TestBase {
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("firefox")){
-			System.setProperty("webdriver.gecko.driver", "geckodriver");	
+			System.setProperty("webdriver.gecko.driver", "../OrangeHRMTest/src/main/java/com/crm/qa/base/geckodriver.exe");	
 			driver = new FirefoxDriver(); 
 		}
 		

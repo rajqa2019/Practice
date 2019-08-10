@@ -41,8 +41,6 @@ public class TestUtil extends TestBase {
 		}
 		try {
 			book = WorkbookFactory.create(file);
-		} catch (InvalidFormatException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
